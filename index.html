@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <title>Stetni softver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: #245580;
+        }
+
+        .row.content {
+            min-height: 2300px;
+        }
+
+        .sidenav {
+            padding-top: 20px;
+            background-color: #b8d5e9;
+            min-height: 100%;
+        }
+
+        a {
+            color: #17466d;
+        }
+
+        footer {
+            background-color: #245580;
+            color: white;
+            padding: 15px;
+        }
+
+        body {
+            background-color: #eaf3fa;
+            color: #222;
+        }
+
+        .well {
+            background-color: white;
+        }
+
+        .slika {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            margin: 15px;
+            border-radius: 5px;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        h1, h2, h3 {
+            color: #245580;
+        }
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">Sigurnost na internetu</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#pocetna">Pocetna</a></li>
+                <li><a href="#crvi">Crvi</a></li>
+                <li><a href="#trojanci">Trojanci</a></li>
+                <li><a href="#ransomware">Ransomware</a></li>
+                <li><a href="#zastita">Zastita</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<div class="container-fluid text-center">
+
+    <div class="row content">
+
+        <!-- LIJEVA STRANA -->
+
+        <div class="col-sm-2 sidenav">
+
+            <p><a href="https://www.youtube.com/watch?v=NMYbkzjI5EY" target="_blank">Sta je stetni softver?</a></p>
+            <p><a href="https://www.youtube.com/watch?v=pPuygS9sfDI" target="_blank">Kako funkcionisu racunarski crvi?</a></p>
+            <p><a href="https://www.youtube.com/watch?v=y7DgrO6P0cI" target="_blank">Objasnjenje trojanskih konja</a></p>
+            <p><a href="https://www.sei.cmu.edu/library/what-is-ransomware/" target="_blank">Sta je ransomware?</a></p>
+            <p><a href="https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/videos" target="_blank">Kako se zastititi na internetu?</a></p>
+
+            <br>
+
+            <div class="well">
+                <p>Internet sigurnost</p>
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400" width="100%">
+            </div>
+
+            <div class="well">
+                <p>Cuvaj svoje podatke!</p>
+                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400" width="100%">
+            </div>
+
+        </div>
+
+
+        <!-- GLAVNI DIO STRANICE -->
+
+        <div class="col-sm-8 text-left">
+
+            <h1 id="pocetna">STETNI SOFTVER</h1>
+
+            <h3>Crvi, trojanci i ransomware</h3>
+
+            <p>
+                Danas skoro svi koristimo racunare, mobitele i internet.
+                Preko njih komuniciramo sa prijateljima, gledamo filmove,
+                igramo igrice i radimo skolske zadatke. Internet nam
+                mnogo pomaze u svakodnevnom zivotu, ali postoje i neke
+                opasnosti na koje trebamo obratiti paznju.
+            </p>
+
+            <p>
+                Jedna od tih opasnosti je stetni softver. Stetni softver
+                je program koji je napravljen da napravi neku stetu na
+                racunaru ili da dodje do podataka korisnika bez njegove
+                dozvole. Na engleskom jeziku naziva se malware.
+            </p>
+
+            <p>
+                Takvi programi mogu ukrasti nase lozinke, obrisati slike,
+                ostetiti dokumente ili usporiti rad racunara. Nekada
+                korisnik ni ne primijeti da je njegov racunar zarazen.
+                Zbog toga je vazno znati kako se zastititi.
+            </p>
+
+            <p>
+                Stetni softver se moze naci u sumnjivim porukama,
+                nepoznatim linkovima, igrama i programima koje
+                preuzimamo sa interneta. Najcesce se pojavi kada
+                otvorimo neku neprovjerenu datoteku ili stranicu.
+            </p>
+
+            <p>
+                Postoji vise vrsta stetnog softvera, a neke od
+                najpoznatijih su racunarski crvi, trojanci i ransomware.
+                Svaka od ovih vrsta djeluje na drugaciji nacin.
+            </p>
+
+            <img class="slika"
+            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500"
+            alt="Internet sigurnost">
+
+            <hr>
+
+
+            <!-- CRVI -->
+
+            <h2 id="crvi">1. Racunarski crvi (Worms)</h2>
+
+            <p>
+                Racunarski crvi su vrsta stetnog softvera koji se mogu
+                sami kopirati i siriti sa jednog racunara na drugi.
+                Za razliku od nekih drugih stetnih programa, crvima
+                nije uvijek potrebno da korisnik nesto klikne kako bi
+                se prosirili.
+            </p>
+
+            <p>
+                Najcesce se sire preko interneta i racunarskih mreza.
+                Kada dospiju na racunar, mogu zauzimati dosta memorije
+                i usporiti njegov rad. Zbog toga racunar moze poceti
+                da se koci ili da sporije otvara programe.
+            </p>
+
+            <p>
+                Crvi mogu napraviti problem i drugim racunarima koji
+                su povezani na istu mrezu. Zanimljivo je da se neki
+                od njih mogu prosiriti na veliki broj uredjaja za
+                veoma kratko vrijeme.
+            </p>
+
+            <p>
+                Jedan od poznatih primjera je Morris Worm koji se
+                pojavio 1988. godine. On je zarazio veliki broj
+                racunara povezanih na internet i pokazao koliko
+                brzo se ovakvi programi mogu siriti.
+            </p>
+
+            <img class="slika"
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500"
+            alt="Racunarski dijelovi">
+
+            <h3>Sta mogu napraviti racunarski crvi?</h3>
+
+            <ul>
+                <li>Mogu usporiti rad racunara.</li>
+                <li>Mogu zauzeti memoriju.</li>
+                <li>Opterecuju internet mrezu.</li>
+                <li>Mogu se prosiriti na druge racunare.</li>
+                <li>Mogu izazvati probleme sa podacima.</li>
+            </ul>
+
+            <p>
+                Da bismo se zastitili od crva, trebamo redovno
+                azurirati racunar, koristiti antivirusni program
+                i paziti koje stranice posjecujemo. Takodjer je
+                vazno ne koristiti nepoznate USB uredjaje.
+            </p>
+
+            <hr>
+
+
+            <!-- TROJANCI -->
+
+            <h2 id="trojanci">2. Trojanci</h2>
+
+            <p>
+                Trojanci su stetni programi koji izgledaju kao obicni
+                i korisni programi. Na primjer, mozemo misliti da
+                preuzimamo neku igricu ili aplikaciju, a zapravo
+                instaliramo program koji moze napraviti stetu.
+            </p>
+
+            <p>
+                Naziv su dobili po poznatoj prici o Trojanskom konju.
+                U toj prici vojnici su se sakrili u velikom drvenom
+                konju kako bi usli u grad. Na slican nacin se i
+                trojanci kriju iza programa koji izgledaju bezopasno.
+            </p>
+
+            <p>
+                Kada se instaliraju, mogu omoguciti drugim osobama
+                da pristupe nasem racunaru, ukradu nase podatke ili
+                prate sta radimo. Zbog toga je veoma vazno da
+                programe preuzimamo samo sa provjerenih stranica.
+            </p>
+
+            <p>
+                Trojanci se uglavnom ne mogu sami siriti kao
+                racunarski crvi. Najcesce je potrebno da korisnik
+                sam pokrene program koji je zarazen. Zbog toga
+                trebamo biti pazljivi prilikom instaliranja
+                razlicitih aplikacija i igrica.
+            </p>
+
+            <img class="slika"
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500"
+            alt="Rad na racunaru">
+
+            <h3>Opasnosti trojanaca:</h3>
+
+            <ul>
+                <li>Kradja lozinki i privatnih podataka.</li>
+                <li>Pristup racunaru bez dozvole.</li>
+                <li>Pracenje aktivnosti korisnika.</li>
+                <li>Ostecenje ili brisanje datoteka.</li>
+                <li>Mogucnost preuzimanja drugih stetnih programa.</li>
+            </ul>
+
+            <p>
+                Najbolji nacin zastite je da ne instaliramo nepoznate
+                programe i da uvijek provjerimo odakle ih preuzimamo.
+                Ako nam se pojavi neka sumnjiva poruka, ne trebamo
+                odmah kliknuti na link koji se nalazi u njoj.
+            </p>
+
+            <hr>
+
+
+            <!-- RANSOMWARE -->
+
+            <h2 id="ransomware">3. Ransomware</h2>
+
+            <p>
+                Ransomware je jedna od opasnijih vrsta stetnog softvera.
+                On moze zakljucati ili sifrirati podatke na racunaru,
+                tako da korisnik vise ne moze normalno otvoriti svoje
+                slike, dokumente i druge fajlove.
+            </p>
+
+            <p>
+                Nakon toga se obicno pojavi poruka u kojoj se od
+                korisnika trazi novac kako bi ponovo dobio pristup
+                svojim podacima. Zbog toga se ransomware naziva
+                i programom za iznudu novca.
+            </p>
+
+            <p>
+                Zamislite da na racunaru imate sve svoje slike,
+                skolske radove i vazne dokumente, a onda odjednom
+                vise ne mozete otvoriti nijedan od njih. Upravo
+                to moze uraditi ransomware.
+            </p>
+
+            <p>
+                Jedan od najpoznatijih napada bio je WannaCry iz
+                2017. godine. Ovaj napad pogodio je veliki broj
+                racunara u svijetu i izazvao probleme u mnogim
+                kompanijama, bolnicama i drugim ustanovama.
+            </p>
+
+            <img class="slika"
+            src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500"
+            alt="Sigurnost podataka">
+
+            <h3>Opasnosti ransomwarea:</h3>
+
+            <ul>
+                <li>Zakljucavanje vaznih datoteka.</li>
+                <li>Gubitak slika i dokumenata.</li>
+                <li>Trazеnje novca od korisnika.</li>
+                <li>Velika finansijska steta.</li>
+                <li>Gubitak vaznih podataka.</li>
+            </ul>
+
+            <p>
+                Od ransomwarea se mozemo zastititi tako sto cemo
+                praviti kopije vaznih podataka i paziti koje
+                priloge i linkove otvaramo. Takodjer trebamo
+                redovno azurirati operativni sistem.
+            </p>
+
+            <hr>
+
+
+            <!-- ZASTITA -->
+
+            <h2 id="zastita">4. Kako se zastititi od stetnog softvera?</h2>
+
+            <p>
+                Iako stetni softver moze biti opasan, postoje nacini
+                da zastitimo svoj racunar. Najvaznije je da budemo
+                pazljivi dok koristimo internet i da ne vjerujemo
+                svemu sto nam neko posalje.
+            </p>
+
+            <p>
+                Prvo trebamo koristiti antivirusni program koji
+                moze prepoznati i ukloniti stetne programe.
+                Takodjer je vazno redovno azurirati racunar jer
+                se na taj nacin popravljaju sigurnosni problemi.
+            </p>
+
+            <p>
+                Pored toga, trebamo paziti koje stranice posjecujemo
+                i koje programe instaliramo. Ako nam neka stranica
+                izgleda sumnjivo, najbolje je da je ne otvaramo.
+            </p>
+
+            <h3>Jos neki nacini zastite su:</h3>
+
+            <ul>
+                <li>Ne otvarati sumnjive linkove i poruke.</li>
+                <li>Ne skidati programe sa nepoznatih stranica.</li>
+                <li>Koristiti jake lozinke.</li>
+                <li>Ne dijeliti licne podatke sa nepoznatim osobama.</li>
+                <li>Redovno azurirati programe.</li>
+                <li>Praviti kopije vaznih slika i dokumenata.</li>
+                <li>Koristiti provjerene internet stranice.</li>
+            </ul>
+
+            <img class="slika"
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500"
+            alt="Antivirusna zastita">
+
+            <h3>Zasto su vazne jake lozinke?</h3>
+
+            <p>
+                Lozinke su veoma vazne jer cuvaju nase profile
+                i privatne podatke. Slabe lozinke, kao sto su
+                datum rodjenja ili jednostavni brojevi, lakse
+                je pogoditi. Zato trebamo koristiti kombinaciju
+                velikih i malih slova, brojeva i znakova.
+            </p>
+
+            <p>
+                Takodjer nije dobro koristiti istu lozinku za
+                sve naloge. Ako neko sazna jednu lozinku, mogao
+                bi pokusati pristupiti i drugim nasim profilima.
+            </p>
+
+            <h3>Sigurnosne kopije podataka</h3>
+
+            <p>
+                Sigurnosne kopije su dodatni nacin zastite
+                nasih podataka. Vazne slike, dokumente i skolske
+                radove mozemo sacuvati na USB memoriji ili
+                nekom drugom sigurnom mjestu.
+            </p>
+
+            <p>
+                Ako dodje do kvara racunara ili napada stetnog
+                softvera, na ovaj nacin mozemo sacuvati vazne
+                podatke i ponovo im pristupiti.
+            </p>
+
+            <hr>
+
+
+            <!-- ZAKLJUCAK -->
+
+            <h2>Zakljucak</h2>
+
+            <p>
+                Na osnovu ovog rada mozemo zakljuciti da stetni
+                softver predstavlja veliki problem za sve korisnike
+                racunara i interneta. Crvi se sami sire, trojanci
+                se kriju iza obicnih programa, a ransomware
+                zakljucava nase podatke i trazi novac.
+            </p>
+
+            <p>
+                Danas skoro svi koristimo internet i zbog toga
+                trebamo znati kako da se zastitimo. Smatram da
+                je najvaznije biti pazljiv, koristiti antivirusni
+                program i ne otvarati sumnjive linkove.
+            </p>
+
+            <p>
+                Ovaj rad mi je pomogao da bolje razumijem kakve
+                opasnosti postoje na internetu i zasto trebamo
+                cuvati svoje podatke. Mislim da svako treba
+                voditi racuna o sigurnosti svojih uredjaja.
+            </p>
+
+            <hr>
+
+            <h3>Zanimljivost</h3>
+
+            <p>
+                Da li ste znali da se neki stetni programi mogu
+                prosiriti na veliki broj racunara za veoma kratko
+                vrijeme? Zbog toga je internet sigurnost vazna
+                za svakoga, bez obzira na to koliko cesto koristi
+                racunar.
+            </p>
+
+        </div>
+
+
+        <!-- DESNA STRANA -->
+
+        <div class="col-sm-2 sidenav">
+
+            <div class="well">
+                <p>Antivirusna zastita</p>
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400" width="100%">
+            </div>
+
+            <div class="well">
+                <p>Sigurne lozinke</p>
+                <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400" width="100%">
+            </div>
+
+            <div class="well">
+                <p>Cuvar podataka</p>
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" width="100%">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+    <p>Skolski rad iz informatike</p>
+    <p>Izradio/la: ___Naida Bijedić__</p>
+    <p>Drugi razred srednje skole | 2026.</p>
+</footer>
+
+</body>
+</html>
